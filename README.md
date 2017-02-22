@@ -32,7 +32,7 @@ every id supports a backup server , to which msgs are published if primary is do
 RMQ_CONN_STR,14,primary_user:primary_pass@127.0.0.1:5672/virtual_host,secondary_user:secondary_pass@127.0.0.2:5672/virtual_host
 
 sample config file and uwsgi .ini are added
-sample.cfg sample.ini_
+libs/examples/sample.cfg libs/examples/sample.ini
 
 Dependencies
 ->uwsgi --- https://github.com/unbit/uwsgi
